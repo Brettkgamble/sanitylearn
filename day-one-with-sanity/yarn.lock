@@ -1753,6 +1753,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.10.3.tgz#5b314537ffc15076c01a4d264d3f768409c846ab"
   integrity sha512-MH4tSSwkqkPx+L2RjG6/Hcsx80OaESQyl9gBSI4adGh6frZxW8kr4+1GymO5lWoi2IOHgjvxln3XT7BlrRqzLA==
 
+"@sanity/icons@^2.11.2":
+  version "2.11.2"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.11.2.tgz#4a9f511a70a1becaa7d77179d51d789f0ec3358b"
+  integrity sha512-TDA854ZCvMENPoQBqgcpTZk0r/ts+2rrcWeJcwF56BtrTFKFWU2KAgj/u2o7QDTJ3OuBOsihy8B70VZ6ab9YUw==
+
 "@sanity/image-url@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.2.tgz#1ff7259e9bad6bfca4169f21c53a4123f6ac78c3"
@@ -1894,6 +1899,18 @@
     "@sanity/icons" "^2.10.2"
     csstype "^3.1.3"
     framer-motion "^11.0.5"
+    react-refractor "^2.1.7"
+
+"@sanity/ui@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.0.10.tgz#ce24da42c4e5ec28bad1fa4647a4241cbb1b3da5"
+  integrity sha512-7z8QglF7DJlP/GaGL2y5NqUpKpD9raEsSc4sDgLq4hiqAsXMBemtN8ENPFsoXUT2eOMly7CrUsQ84smcjneHtw==
+  dependencies:
+    "@floating-ui/react-dom" "^2.0.8"
+    "@sanity/color" "^3.0.0"
+    "@sanity/icons" "^2.11.2"
+    csstype "^3.1.3"
+    framer-motion "11.0.8"
     react-refractor "^2.1.7"
 
 "@sanity/util@3.30.0":
@@ -3801,6 +3818,15 @@ form-data@^4.0.0:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
+
+framer-motion@11.0.8:
+  version "11.0.8"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.8.tgz#8f97a18cbad5858d85b53bc325c40a03d0a5c203"
+  integrity sha512-1KSGNuqe1qZkS/SWQlDnqK2VCVzRVEoval379j0FiUBJAZoqgwyvqFkfvJbgW2IPFo4wX16K+M0k5jO23lCIjA==
+  dependencies:
+    tslib "^2.4.0"
+  optionalDependencies:
+    "@emotion/is-prop-valid" "^0.8.2"
 
 framer-motion@^11.0.0, framer-motion@^11.0.5:
   version "11.0.6"
